@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learning Test Suite" duration-ms="49343" started-at="2021-11-08T16:56:26Z" finished-at="2021-11-08T16:57:15Z">
+    <groups>
+    </groups>
+    <test name="Regression suite" duration-ms="49343" started-at="2021-11-08T16:56:26Z" finished-at="2021-11-08T16:57:15Z">
+      <class name="phpproject.automation.core.report.TeardownReport">
+        <test-method status="PASS" signature="teardownReport()[pri:0, instance:phpproject.automation.core.report.TeardownReport@954b04f]" name="teardownReport" is-config="true" duration-ms="1561" started-at="2021-11-08T16:57:16Z" finished-at="2021-11-08T16:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownReport -->
+      </class> <!-- phpproject.automation.core.report.TeardownReport -->
+      <class name="phpproject.automation.core.report.SetupReport">
+        <test-method status="PASS" signature="setupReport(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:phpproject.automation.core.report.SetupReport@67b467e9]" name="setupReport" is-config="true" duration-ms="321" started-at="2021-11-08T16:56:26Z" finished-at="2021-11-08T16:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[all]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+      </class> <!-- phpproject.automation.core.report.SetupReport -->
+      <class name="phpproject.automation.demoapp.test.PHPApplication">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="Setup" is-config="true" duration-ms="21755" started-at="2021-11-08T16:56:27Z" finished-at="2021-11-08T16:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="FFPMItemFlowValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="FFPMItemFlowValidation" duration-ms="26501" started-at="2021-11-08T16:56:48Z" data-provider="PHPwebsiteValidation" finished-at="2021-11-08T16:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ItemFlowValidationT1-T8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Positive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T1-T8TC]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Verify item which created in RMS has reflected in FFPM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[E2ETest]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4!M3rb52Em2j]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[120360342]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FFPMItemFlowValidation -->
+        <test-method status="PASS" signature="FFPMItemFlowValidation()[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="FFPMItemFlowValidation" is-config="true" duration-ms="365" started-at="2021-11-08T16:57:15Z" finished-at="2021-11-08T16:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FFPMItemFlowValidation -->
+      </class> <!-- phpproject.automation.demoapp.test.PHPApplication -->
+    </test> <!-- Regression suite -->
+  </suite> <!-- Learning Test Suite -->
+</testng-results>

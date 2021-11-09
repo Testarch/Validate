@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Learning Test Suite" verbose="1" >
+ 	<!-- This parameter will be passed to every test in this suite -->
+      <parameter name="env" value="test" />
+      <parameter name="browser" value="chrome" /> 
+      <parameter name="suite" value="all" />
+  <test name="Regression suite" >
+    <classes>
+    <class name="phpproject.automation.core.report.SetupReport"/> 
+    <!--   Start  -->
+     
+      <class name="phpproject.automation.demoapp.test.PHPApplication"/>
+    <!--  End  -->
+    <class name="phpproject.automation.core.report.TeardownReport"/>
+    
+    </classes>
+ </test>
+ </suite>
+

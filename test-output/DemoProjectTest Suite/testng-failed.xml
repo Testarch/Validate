@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [demoproject Test Suite]">
+  <parameter name="suite" value="all"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="env" value="test"/>
+  <test name="Regression suite(failed)">
+    <classes>
+      <class name="demoproject.automation.core.report.SetupReport">
+        <methods>
+          <include name="setupReport"/>
+        </methods>
+      </class> <!-- demoproject.automation.core.report.SetupReport -->
+      <class name="demoproject.automation.demoapp.test.Integration_AS2_demoappnew">
+        <methods>
+          <include name="Setup"/>
+          <include name="TearDown"/>
+          <include name="articleselect1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- demoproject.automation.demoapp.test.Integration_AS2_demoappnew -->
+      <class name="demoproject.automation.core.report.TeardownReport">
+        <methods>
+          <include name="teardownReport"/>
+        </methods>
+      </class> <!-- demoproject.automation.core.report.TeardownReport -->
+    </classes>
+  </test> <!-- Regression suite(failed) -->
+</suite> <!-- Failed suite [demoproject Test Suite] -->

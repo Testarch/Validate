@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo Test Suite]">
+  <parameter name="suite" value="all"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="env" value="test"/>
+  <test thread-count="5" name="Regression suite(failed)">
+    <classes>
+      <class name="demoproject.automation.demoapp.test.WinkApplication">
+        <methods>
+          <include name="TearDown"/>
+          <include name="wink6" invocation-numbers="0"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- demoproject.automation.demoapp.test.WinkApplication -->
+    </classes>
+  </test> <!-- Regression suite(failed) -->
+</suite> <!-- Failed suite [Demo Test Suite] -->

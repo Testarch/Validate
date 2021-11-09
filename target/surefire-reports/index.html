@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-demoproject_Test_Suite">
+              <span class="suite-name border-passed">demoproject Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-demoproject_Test_Suite">
+                    <span>C:\demoappnew\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-demoproject_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-demoproject_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-demoproject_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-demoproject_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-demoproject_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-demoproject_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-demoproject_Test_Suite" class="hide-methods passed suite-demoproject_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-demoproject_Test_Suite -->
+                      <a href="#" panel-name="suite-demoproject_Test_Suite" class="show-methods passed suite-demoproject_Test_Suite"> (show)</a> <!-- show-methods passed suite-demoproject_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-demoproject_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-demoproject_Test_Suite" title="demoproject.automation.demoapp.test.Integration_ALM_demoappnew" hash-for-method="almtolit(T1858879, Y, Positive, T1858879_TC, tmukherjee, Kolkata@18, tmukherjee@demoproject.com, Kolkata@2017, Soci...)">almtolit(T1858879, Y, Positive, T1858879_TC, tmukherjee, Kolkata@18, tmukherjee@demoproject.com, Kolkata@2017, Soci...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-demoproject_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-demoproject_Test_Suite" class="panel demoproject_Test_Suite">
+          <div class="suite-demoproject_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demoproject.automation.demoapp.test.Integration_ALM_demoappnew</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="almtolit(T1858879, Y, Positive, T1858879_TC, tmukherjee, Kolkata@18, tmukherjee@demoproject.com, Kolkata@2017, Soci...)">
+                  </a> <!-- almtolit(T1858879, Y, Positive, T1858879_TC, tmukherjee, Kolkata@18, tmukherjee@demoproject.com, Kolkata@2017, Soci...) -->
+                  <span class="method-name">almtolit</span>
+                  <span class="parameters">(T1858879, Y, Positive, T1858879_TC, tmukherjee, Kolkata@18, tmukherjee@demoproject.com, Kolkata@2017, Society)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-demoproject_Test_Suite-class-passed -->
+        </div> <!-- panel demoproject_Test_Suite -->
+        <div panel-name="test-xml-demoproject_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\demoappnew\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;demoproject Test Suite&quot;&gt;
+  &lt;parameter name=&quot;suite&quot; value=&quot;all&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;env&quot; value=&quot;test&quot;/&gt;
+  &lt;test name=&quot;Regression suite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;demoproject.automation.core.report.SetupReport&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_Sanity&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_journal_homepage&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_article_page&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_Book_Chapter&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_About_This_Book&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_Search&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_Search_Book_Page&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_journal_loi_page&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.demoappnew_Readcube&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.Frankenstein_Article&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.demoapp.test.Integration_ALM_demoappnew&quot;/&gt;
+      &lt;class name=&quot;demoproject.automation.core.report.TeardownReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression suite --&gt;
+&lt;/suite&gt; &lt;!-- demoproject Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-demoproject_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for demoproject Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression suite (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-demoproject_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for demoproject Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-demoproject_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for demoproject Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_demoproject_Test_Suite');
+function tableData_demoproject_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'almtolit')
+data.setCell(0, 2, 'demoproject.automation.demoapp.test.Integration_ALM_demoappnew')
+data.setCell(0, 3, 103891);
+window.suiteTableData['demoproject_Test_Suite']= { tableData: data, tableDiv: 'times-div-demoproject_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-demoproject_Test_Suite">
+              </div> <!-- times-div-demoproject_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-demoproject_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for demoproject Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-demoproject_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-demoproject_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">demoproject.automation.core.report.SetupReport</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupReport(test, chrome, all)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demoproject.automation.demoapp.test.Integration_ALM_demoappnew</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">1201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">almtolit(T1858879, Y, Positive, T1858879_TC, tmukherjee, Kolkata@18, tmukherjee@demoproject.com, Kolkata@2017, Soci...)</span>
+                <span class="method-start">15144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">119037 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demoproject.automation.core.report.TeardownReport</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardownReport</span>
+                <span class="method-start">124413 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

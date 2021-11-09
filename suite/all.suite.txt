@@ -1,0 +1,14 @@
+'---------------------------------------------------------------
+'    		ALL SUITE
+'---------------------------------------------------------------
+
+ItemFlowValidationT1-T8
+ItemFlowValidationT1-T9
+
+PartialPromotionT1
+PartialPromotionT2
+
+MainPromo_1
+MainPromo_2
+
+RepeatPromo_1
