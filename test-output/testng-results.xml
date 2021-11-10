@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Learning Test Suite" duration-ms="49343" started-at="2021-11-08T16:56:26Z" finished-at="2021-11-08T16:57:15Z">
+  <suite name="Learning Test Suite" duration-ms="94593" started-at="2021-11-10T14:23:21Z" finished-at="2021-11-10T14:24:55Z">
     <groups>
     </groups>
-    <test name="Regression suite" duration-ms="49343" started-at="2021-11-08T16:56:26Z" finished-at="2021-11-08T16:57:15Z">
+    <test name="Regression suite" duration-ms="94593" started-at="2021-11-10T14:23:21Z" finished-at="2021-11-10T14:24:55Z">
       <class name="phpproject.automation.core.report.TeardownReport">
-        <test-method status="PASS" signature="teardownReport()[pri:0, instance:phpproject.automation.core.report.TeardownReport@954b04f]" name="teardownReport" is-config="true" duration-ms="1561" started-at="2021-11-08T16:57:16Z" finished-at="2021-11-08T16:57:17Z">
+        <test-method status="PASS" signature="teardownReport()[pri:0, instance:phpproject.automation.core.report.TeardownReport@954b04f]" name="teardownReport" is-config="true" duration-ms="1833" started-at="2021-11-10T14:24:56Z" finished-at="2021-11-10T14:24:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownReport -->
       </class> <!-- phpproject.automation.core.report.TeardownReport -->
       <class name="phpproject.automation.core.report.SetupReport">
-        <test-method status="PASS" signature="setupReport(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:phpproject.automation.core.report.SetupReport@67b467e9]" name="setupReport" is-config="true" duration-ms="321" started-at="2021-11-08T16:56:26Z" finished-at="2021-11-08T16:56:26Z">
+        <test-method status="PASS" signature="setupReport(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:phpproject.automation.core.report.SetupReport@67b467e9]" name="setupReport" is-config="true" duration-ms="51" started-at="2021-11-10T14:23:21Z" finished-at="2021-11-10T14:23:21Z">
           <params>
             <param index="0">
               <value>
@@ -36,11 +36,11 @@
         </test-method> <!-- setupReport -->
       </class> <!-- phpproject.automation.core.report.SetupReport -->
       <class name="phpproject.automation.demoapp.test.PHPApplication">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="Setup" is-config="true" duration-ms="21755" started-at="2021-11-08T16:56:27Z" finished-at="2021-11-08T16:56:48Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="Setup" is-config="true" duration-ms="70787" started-at="2021-11-10T14:23:21Z" finished-at="2021-11-10T14:24:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="FFPMItemFlowValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="FFPMItemFlowValidation" duration-ms="26501" started-at="2021-11-08T16:56:48Z" data-provider="PHPwebsiteValidation" finished-at="2021-11-08T16:57:15Z">
+        <test-method status="PASS" signature="FFPMItemFlowValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="FFPMItemFlowValidation" duration-ms="22476" started-at="2021-11-10T14:24:32Z" data-provider="PHPwebsiteValidation" finished-at="2021-11-10T14:24:55Z">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FFPMItemFlowValidation -->
-        <test-method status="PASS" signature="FFPMItemFlowValidation()[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="FFPMItemFlowValidation" is-config="true" duration-ms="365" started-at="2021-11-08T16:57:15Z" finished-at="2021-11-08T16:57:15Z">
+        <test-method status="PASS" signature="FFPMItemFlowValidation()[pri:0, instance:phpproject.automation.demoapp.test.PHPApplication@47db50c5]" name="FFPMItemFlowValidation" is-config="true" duration-ms="596" started-at="2021-11-10T14:24:55Z" finished-at="2021-11-10T14:24:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FFPMItemFlowValidation -->
